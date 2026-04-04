@@ -32,6 +32,8 @@ export default function Login() {
     { email: 'admin@novacart.com', role: 'Admin' },
     { email: 'supervisor@novacart.com', role: 'Supervisor' },
     { email: 'associate@novacart.com', role: 'Associate' },
+    { email: 'warehouse@novacart.com', role: 'Warehouse' },
+    { email: 'executive@novacart.com', role: 'Executive' },
   ]
 
   return (

@@ -69,6 +69,8 @@ const demoAccounts = [
   { email: 'admin@novacart.com', role: 'Admin', store: 'All Stores', color: 'border-red-200 bg-red-50' },
   { email: 'supervisor@novacart.com', role: 'Supervisor', store: 'Hyderabad Central', color: 'border-blue-200 bg-blue-50' },
   { email: 'associate@novacart.com', role: 'Associate', store: 'Mumbai West', color: 'border-green-200 bg-green-50' },
+  { email: 'warehouse@novacart.com', role: 'Warehouse', store: 'Bangalore North', color: 'border-yellow-200 bg-yellow-50' },
+  { email: 'executive@novacart.com', role: 'Executive', store: 'All Stores', color: 'border-purple-200 bg-purple-50' },
 ]
 
 export default function Landing() {
