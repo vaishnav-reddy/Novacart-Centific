@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
-import { ShoppingBag, Eye, EyeOff } from 'lucide-react'
+import { ShoppingBag, Eye, EyeOff, ArrowLeft } from 'lucide-react'
 
 export default function Login() {
   const { login } = useAuth()
@@ -38,6 +38,13 @@ export default function Login() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary to-sidebar flex items-center justify-center p-4">
+      {/* Back to landing */}
+      <Link
+        to="/"
+        className="absolute top-5 left-5 flex items-center gap-1.5 text-blue-200 hover:text-white text-sm transition-colors"
+      >
+        <ArrowLeft size={16} /> Back to Home
+      </Link>
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
