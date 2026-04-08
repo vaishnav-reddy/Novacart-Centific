@@ -12,7 +12,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Groq](https://img.shields.io/badge/Groq-LLaMA_3.1-F55036?style=flat-square)](https://console.groq.com)
 
-[Demo]((https://www.youtube.com/watch?v=t0hLQ79f3-0)) · [Quick Start](#quick-start) · [API Docs](#api-reference) · [Architecture](#architecture)
+[Demo]((#Demo)(https://www.youtube.com/watch?v=t0hLQ79f3-0)) · [Quick Start](#quick-start) · [API Docs](#api-reference) · [Architecture](#architecture)
 
 </div>
 
